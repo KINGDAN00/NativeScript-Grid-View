@@ -51,7 +51,7 @@ String value used when hooking to scroll event.
 * **ios** - *[UICollectionView](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollectionView_class/)*  
 Gets the native iOS view that represents the user interface for this component. Valid only when running on iOS.
 
-* **android** - *[android.support.v7.widget.RecyclerView](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)*  
+* **android** - *[androidx.recyclerview.widget.RecyclerView](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView)*  
 Gets the native android widget that represents the user interface for this component. Valid only when running on Android OS.
 
 * **items** - *Array | ItemsSource*  

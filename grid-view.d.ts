@@ -34,7 +34,7 @@ export class GridView extends ContainerView implements TemplatedItemsView {
     public orientation: Orientation;
 
     public ios: any; /* UICollectionView */
-    public android: any; /* android.support.v7.widget.RecyclerView */
+    public android: any; /* androidx.recyclerview.widget.RecyclerView */
 
     public refresh();
     public scrollToIndex(index: number, animated?: boolean);

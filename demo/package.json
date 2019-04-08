@@ -1,11 +1,11 @@
 {
   "nativescript": {
     "id": "com.tangrainc.gridviewsample",
-    "tns-android": {
-      "version": "5.1.0"
-    },
     "tns-ios": {
       "version": "5.1.0"
+    },
+    "tns-android": {
+      "version": "5.3.0-2019-03-19-143503-02"
     }
   },
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "nativescript-grid-view": "file:../bin/dist",
-    "tns-core-modules": "^5.1.1"
+    "tns-core-modules": "^5.4.0-androidx-2019-03-22-160602-06"
   },
   "devDependencies": {
     "babel-traverse": "6.26.0",
